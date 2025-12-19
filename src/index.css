@@ -1,14 +1,19 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  font-size: 10px;
+}
 
-  color-scheme: light dark;
-  color: rgba(8, 8, 8, 0.87);
-  background-color: #f8f4f4;
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(54, 54, 54, 0.3);
+  background-color: rgb(138, 138, 138);
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: rgb(196, 196, 196);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: rgb(100, 100, 100);
 }
